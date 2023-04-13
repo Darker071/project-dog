@@ -1,0 +1,171 @@
+/* Body */
+
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family: "Montserrat", sans-serif;  
+    
+}
+
+p{
+    font-family: "Monserrat-light", sans-serif;
+    color:#8f8f8f;
+
+}
+
+/* Headings */
+
+#title {
+    /* background-color: #ff4c68;
+    color: white;  */
+    text-align: left;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;  
+
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white; 
+}
+
+.white-section{
+    background-color: white;
+}
+/* Features */
+
+#features{
+    /* background-color: white; */
+    position:relative;
+    
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#ff4c68;
+}
+
+/* Navagation Bar */
+
+.nav-item { 
+    padding: 0 18px;
+
+}
+
+.dog-1 {
+    transform: rotate(28deg);
+    width: 22%;
+    position: absolute;
+    right: 25%;
+    
+}
+
+@media (max-width: 1000px){
+
+    #title {
+        text-align: center;
+    }
+    .dog-1 {
+        position:static;
+        transform: rotate(0);
+        width:50%
+    }
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.navbar{
+    padding: 0 0 8%;
+}
+
+.nav-link{
+    font-family: "Monserrat-light", sans-serif;
+    font-size: 20px;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    /* color: white; */
+    background-color: #ef8172;
+    
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+   
+}
+.pricing-colunm {
+    padding: 3% 2%
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.icon2 {
+    padding: 10px 10px 30px;
+}
